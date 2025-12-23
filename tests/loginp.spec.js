@@ -19,5 +19,5 @@ test("No error message", async ({ page }) => {
   const login = new LoginPage(page);
 
   await login.launchApplication();
-  await login.verifyErrorMessage(); // use correct method name
+  await login.verifyErrorMessage(); 
 });
