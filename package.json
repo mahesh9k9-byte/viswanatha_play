@@ -12,6 +12,7 @@
     "@types/node": "^22.14.1"
   },
   "dependencies": {
-    "allure-playwright": "^3.4.2"
+    "allure-playwright": "^3.4.2",
+    "dotenv": "^17.2.3"
   }
 }

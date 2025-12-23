@@ -5,7 +5,7 @@ test("verify the job title with mandatory field", async ({ page }) => {
     timeout: 90000
   });
 
-  // Login
+  // 
   await page.locator("input[name='username']").fill("Admin");
   await page.locator("input[type='password']").fill("admin123");
   await page.locator("button[type='submit']").click();
